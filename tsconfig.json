@@ -1,0 +1,12 @@
+{
+  "extends": "@fuels/ts-config/base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "declaration": true,
+    "paths": {
+      "src/*": ["./src/*"]
+    }
+  },
+  "exclude": ["dist", "tests", "examples"]
+}
